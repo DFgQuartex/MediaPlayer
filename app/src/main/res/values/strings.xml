@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action">Музыкально-развлекательный канал Прибой ТВ, создан на базе популярной в Дагестане радиостанции «Прибой».
+            Осуществляет круглосуточное вещание во всех городах и крупных населённых пунктах Дагестана.
+            В эфире используются популярные музыкальные клипы Российской, Зарубежной и Кавказской эстрады,
+            для аудитории в возрасте от 15 до 60 лет. Развлекательные программы – для домохозяек (кухня),
+            общеобразовательные, спортивные, программы для автолюбителей. Художественные фильмы и сериалы.
+    </string>
+</resources>

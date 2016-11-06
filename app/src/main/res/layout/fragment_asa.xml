@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom">
+
+        <ToggleButton
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:id="@+id/stopButton1"
+            android:src="@drawable/stop"
+            android:background="@drawable/toggle_stop"
+            android:textOff="@null"
+            android:textOn="@null"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="15dp" />
+
+        <ToggleButton
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:id="@+id/playpause1"
+            android:background="@drawable/toggle_playback"
+            android:textOff="@null"
+            android:textOn="@null"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="15dp" />
+    </FrameLayout>
+
+</LinearLayout>

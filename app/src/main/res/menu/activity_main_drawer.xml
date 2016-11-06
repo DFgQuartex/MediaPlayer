@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Домой" />
+        <item
+            android:id="@+id/nav_priboy"
+            android:icon="@drawable/radio"
+            android:title="Прибой" />
+        <item
+            android:id="@+id/nav_assa"
+            android:icon="@drawable/radio"
+            android:title="Асса" />
+
+    </group>
+
+    <item android:title="Разное">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Поделиться" />
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/settings"
+                android:title="Настройки" />
+        </menu>
+    </item>
+
+</menu>
