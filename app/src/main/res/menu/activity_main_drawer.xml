@@ -17,17 +17,5 @@
 
     </group>
 
-    <item android:title="Разное">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/share"
-                android:title="Поделиться" />
-            <item
-                android:id="@+id/nav_manage"
-                android:icon="@drawable/settings"
-                android:title="Настройки" />
-        </menu>
-    </item>
 
 </menu>
