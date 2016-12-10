@@ -20,6 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name="com.example.lord.myapplication.AudioPlaybackService"
+            android:enabled="true"
+            android:label="Audio-playback service" />
     </application>
 
 </manifest>
